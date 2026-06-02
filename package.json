@@ -13,6 +13,18 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzaragosa555459-eng/To-do-app-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lzaragosa555459-eng/To-do-app-/issues"
+  },
+  "homepage": "https://github.com/lzaragosa555459-eng/To-do-app-#readme"
 }
