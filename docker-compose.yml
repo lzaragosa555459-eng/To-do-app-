@@ -6,4 +6,7 @@ services:
     volumes:
       - .:/app
       - /app/node_modules
-    command: npm run dev
+    environment:
+      - NODE_ENV=development
+      - MONGO_URI=${MONGO_URI}  # Reads from .env file
+    # No mongo service needed when using Atlas
